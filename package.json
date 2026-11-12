@@ -1,0 +1,11 @@
+{
+  "name": "ai-interview-coach",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix mobile start",
+    "mobile": "npm --prefix mobile start",
+    "mobile:clean": "npm --prefix mobile start -- -c",
+    "backend": "npm --prefix backend start"
+  }
+}
